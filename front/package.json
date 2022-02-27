@@ -1,0 +1,43 @@
+{
+  "name": "merci_medecin_covid19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "node server.js",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassati/merci_medecin_covid19.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yassati/merci_medecin_covid19/issues"
+  },
+  "homepage": "https://github.com/yassati/merci_medecin_covid19#readme",
+  "dependencies": {
+    "antd": "^4.1.3",
+    "express": "^4.17.1",
+    "formik": "^2.1.4",
+    "heroku-ssl-redirect": "0.0.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.3.4",
+    "next-images": "^1.4.0",
+    "next-seo": "^4.4.0",
+    "react": "^16.13.1",
+    "react-device-detect": "^1.11.14",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-share": "^4.1.0",
+    "react-toastify": "^5.5.0",
+    "yup": "^0.28.3"
+  },
+  "devDependencies": {
+    "url-loader": "^4.1.0"
+  }
+}
